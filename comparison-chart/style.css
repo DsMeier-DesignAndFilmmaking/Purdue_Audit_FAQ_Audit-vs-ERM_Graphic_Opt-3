@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Content Section */
 .content-section {
-  padding: 0 3rem 3rem 3rem;
+  padding: 0 1.5rem 3rem 1.5rem;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -292,7 +292,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   
   .content-section {
-    padding: 0 1.5rem 1.5rem 1.5rem;
+    padding: 0 1rem 1.5rem 1rem;
   }
   
   .internal-audit-column .header h2,
