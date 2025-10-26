@@ -124,9 +124,16 @@ h1, h2, h3, h4, h5, h6 {
   white-space: pre;
 }
 
-.risk-management-column .header h2 .word2::before {
-  content: "\A" !important;
-  white-space: pre !important;
+/* Desktop line breaks - show on desktop */
+.desktop-break {
+  display: inline;
+}
+
+/* Mobile line breaks - hide on mobile */
+@media (max-width: 768px) {
+  .desktop-break {
+    display: none;
+  }
 }
 
 
@@ -137,7 +144,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: var(--font-weight-bold);
   margin: 0;
   letter-spacing: 1px;
-  white-space: pre-line;
 }
 
 /* Content Section */
@@ -250,11 +256,6 @@ h1, h2, h3, h4, h5, h6 {
 /* Responsive Design */
 @media (max-width: 768px) {
   .internal-audit-column .header h2 .word2::before {
-    content: " ";
-    white-space: normal;
-  }
-  
-  .risk-management-column .header h2 .word2::before {
     content: " ";
     white-space: normal;
   }
