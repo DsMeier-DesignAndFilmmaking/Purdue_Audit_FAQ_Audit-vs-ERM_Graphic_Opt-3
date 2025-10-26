@@ -199,9 +199,12 @@ h1, h2, h3, h4, h5, h6 {
   flex-grow: 1;
   text-align: center;
   width: 100%;
-  word-break: keep-all;
+  min-width: 200px;
+  word-break: normal;
   hyphens: none;
-  overflow-wrap: break-word;
+  overflow-wrap: normal;
+  white-space: normal;
+  word-spacing: normal;
 }
 
 .internal-audit-column .section-text {
