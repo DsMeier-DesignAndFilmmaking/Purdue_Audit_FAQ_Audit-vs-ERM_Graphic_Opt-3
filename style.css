@@ -1,9 +1,50 @@
-/* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&family=Oswald:wght@400;500;600;700&display=swap');
+/* United Sans Font Face Declarations */
+@font-face {
+  font-family: 'United Sans';
+  src: url('./fonts/United Sans Reg-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'United Sans';
+  src: url('./fonts/United Sans Reg-Medium.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'United Sans';
+  src: url('./fonts/United Sans Reg-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'United Sans';
+  src: url('./fonts/United Sans Reg-Heavy.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'United Sans';
+  src: url('./fonts/United Sans Reg-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Import Source Sans Pro for body text */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
 
 /* CSS Variables for Font Families and Weights */
 :root {
-  --font-family-headlines: 'Oswald', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-family-headlines: 'United Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   --font-family-body: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   --font-weight-light: 300;
   --font-weight-regular: 400;
