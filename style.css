@@ -125,8 +125,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .risk-management-column .header h2 .word2::before {
-  content: "\A";
-  white-space: pre;
+  content: "\A" !important;
+  white-space: pre !important;
 }
 
 
@@ -137,6 +137,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: var(--font-weight-bold);
   margin: 0;
   letter-spacing: 1px;
+  white-space: pre-line;
 }
 
 /* Content Section */
