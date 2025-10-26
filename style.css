@@ -176,8 +176,10 @@ h1, h2, h3, h4, h5, h6 {
   height: 1.2rem;
   display: flex;
   align-items: flex-start;
+  justify-content: center;
   flex-shrink: 0;
   color: #ffffff;
+  text-align: center;
 }
 
 .internal-audit-column .section-header {
@@ -194,6 +196,8 @@ h1, h2, h3, h4, h5, h6 {
   flex-grow: 1;
   display: flex;
   align-items: flex-start;
+  justify-content: center;
+  text-align: center;
 }
 
 .internal-audit-column .section-text {
