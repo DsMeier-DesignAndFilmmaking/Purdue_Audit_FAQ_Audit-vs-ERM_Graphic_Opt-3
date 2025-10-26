@@ -192,14 +192,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .section-text {
   font-family: var(--font-family-body);
-  font-size: 1rem;
+  font-size: 0.95rem;
   font-weight: var(--font-weight-regular);
   line-height: 1.4;
   margin: 0;
   flex-grow: 1;
   text-align: center;
   width: 100%;
-  min-width: 200px;
+  min-width: 250px;
   word-break: normal;
   hyphens: none;
   overflow-wrap: normal;
