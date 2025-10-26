@@ -124,6 +124,11 @@ h1, h2, h3, h4, h5, h6 {
   white-space: pre;
 }
 
+.risk-management-column .header h2 .word2::before {
+  content: "\A";
+  white-space: pre;
+}
+
 
 .risk-management-column .header h2 {
   color: #000000;
@@ -244,6 +249,11 @@ h1, h2, h3, h4, h5, h6 {
 /* Responsive Design */
 @media (max-width: 768px) {
   .internal-audit-column .header h2 .word2::before {
+    content: " ";
+    white-space: normal;
+  }
+  
+  .risk-management-column .header h2 .word2::before {
     content: " ";
     white-space: normal;
   }
